@@ -1,0 +1,359 @@
+[07:18:39] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[07:18:39] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[07:18:40] [Server-Worker-12/INFO]: Loaded 7 recipes
+[07:18:42] [Server thread/INFO]: Starting minecraft server version 1.16.1
+[07:18:42] [Server thread/INFO]: Loading properties
+[07:18:42] [Server thread/INFO]: This server is running Paper version git-Paper-137 (MC: 1.16.1) (Implementing API version 1.16.1-R0.1-SNAPSHOT)
+[07:18:42] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[07:18:42] [Server thread/INFO]: Using 4 threads for Netty based IO
+[07:18:42] [Server thread/INFO]: Debug logging is disabled
+[07:18:42] [Server thread/INFO]: Default game type: SURVIVAL
+[07:18:42] [Server thread/INFO]: Generating keypair
+[07:18:43] [Server thread/INFO]: Starting Minecraft server on *:25565
+[07:18:43] [Server thread/INFO]: Using epoll channel type
+[07:18:43] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[07:18:47] [Server thread/WARN]: Legacy plugin Playtimes v1.3.3 does not specify an api-version.
+[07:18:48] [Server thread/ERROR]: Could not load 'plugins/Rankup-3.9.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: sh/okx/rankup/RankupPlugin has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:141) ~[patched_1.16.1.jar:git-Paper-137]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:397) ~[patched_1.16.1.jar:git-Paper-137]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:305) ~[patched_1.16.1.jar:git-Paper-137]
+	at org.bukkit.craftbukkit.v1_16_R1.CraftServer.loadPlugins(CraftServer.java:388) ~[patched_1.16.1.jar:git-Paper-137]
+	at net.minecraft.server.v1_16_R1.DedicatedServer.init(DedicatedServer.java:208) ~[patched_1.16.1.jar:git-Paper-137]
+	at net.minecraft.server.v1_16_R1.MinecraftServer.v(MinecraftServer.java:941) ~[patched_1.16.1.jar:git-Paper-137]
+	at net.minecraft.server.v1_16_R1.MinecraftServer.lambda$a$0(MinecraftServer.java:177) ~[patched_1.16.1.jar:git-Paper-137]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_265]
+Caused by: java.lang.UnsupportedClassVersionError: sh/okx/rankup/RankupPlugin has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_265]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:756) ~[?:1.8.0_265]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142) ~[?:1.8.0_265]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:167) ~[patched_1.16.1.jar:git-Paper-137]
+	at org.bukkit.plugin.java.JavaPluginLoader.getClassByName(JavaPluginLoader.java:216) ~[patched_1.16.1.jar:git-Paper-137]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:111) ~[patched_1.16.1.jar:git-Paper-137]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:100) ~[patched_1.16.1.jar:git-Paper-137]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_265]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_265]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_265]
+	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_265]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:68) ~[patched_1.16.1.jar:git-Paper-137]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:137) ~[patched_1.16.1.jar:git-Paper-137]
+	... 7 more
+[07:18:48] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.1.93
+[07:18:48] [Server thread/INFO]: [CommandHook] Loading CommandHook v1.0.6
+[07:18:48] [Server thread/INFO]: [BlockLocker] Loading BlockLocker v1.8.1
+[07:18:48] [Server thread/INFO]: [LimitPillagers] Loading LimitPillagers v2.13.0
+[07:18:48] [Server thread/INFO]: [WorldBorder] Loading WorldBorder v2.0.9
+[07:18:48] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.4.3
+[07:18:48] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[07:18:48] [Server thread/INFO]: [CommandSigns] Loading CommandSigns v2.2.0
+[07:18:48] [Server thread/INFO]: [Playtimes] Loading Playtimes v1.3.3
+[07:18:48] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.0-beta-03+94ce464
+[07:18:49] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4868670d]
+[07:18:49] [Server thread/INFO]: [Essentials] Loading Essentials v2.18.0.0
+[07:18:49] [Server thread/INFO]: [Stargate] Loading Stargate vReremake 1.0.0
+[07:18:49] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.18.0.0
+[07:18:49] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.18.0.0
+[07:18:49] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.4-beta1;bc551da
+[07:18:49] [Server thread/INFO]: [BetterSleeping3] Loading BetterSleeping3 v3.0.3
+[07:18:49] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v19.1
+[07:18:49] [Server thread/INFO]: [WorldGuardExtraFlags] Loading WorldGuardExtraFlags v4.1.4
+[07:18:49] [Server thread/INFO]: [Jobs] Loading Jobs v4.16.0
+[07:18:49] [Server thread/INFO]: [ProtectionStones] Loading ProtectionStones v2.7.5
+[07:18:49] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[07:18:49] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.1.93
+[07:18:49] [Server thread/INFO]:         __    
+[07:18:49] [Server thread/INFO]:   |    |__)   LuckPerms v5.1.93
+[07:18:49] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[07:18:49] [Server thread/INFO]: 
+[07:18:49] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[07:18:50] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[07:18:51] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[07:18:51] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[07:18:51] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2112ms)
+[07:18:51] [Server thread/INFO]: [BlockLocker] Enabling BlockLocker v1.8.1
+[07:18:51] [Server thread/INFO]: [LimitPillagers] Enabling LimitPillagers v2.13.0
+[07:18:51] [Server thread/INFO]: [LimitPillagers] Registering commands...
+[07:18:51] [Server thread/INFO]: [LimitPillagers] Registering listeners...
+[07:18:51] [Server thread/INFO]: [LimitPillagers] Loading config.yml...
+[07:18:51] [Server thread/INFO]: [LimitPillagers] Registering metrics...
+[07:18:51] [Server thread/INFO]: [LimitPillagers] 
+[07:18:51] [Server thread/INFO]: [LimitPillagers] If you are still having Pillager related lag after using this plugin you can do the following:
+[07:18:51] [Server thread/INFO]: [LimitPillagers] - Increase the limiter check distance between Pillagers
+[07:18:51] [Server thread/INFO]: [LimitPillagers] - Lower the stop at amount of the limiter
+[07:18:51] [Server thread/INFO]: [LimitPillagers] - Enable the remover which will remove all Pillagers in future loaded chunks (Good for if you have already have mass pillagers saved in unloaded chunks before this plugin)
+[07:18:51] [Server thread/INFO]: [LimitPillagers] - Enable the stopper to remove all future Pillager spawners (Last resort)
+[07:18:51] [Server thread/INFO]: [LimitPillagers] 
+[07:18:51] [Server thread/INFO]: [LimitPillagers] I also HIGHLY recommend to follow this guide for an overall increase of performance: https://www.spigotmc.org/threads/283181/
+[07:18:51] [Server thread/INFO]: [LimitPillagers] 
+[07:18:51] [Server thread/INFO]: [LimitPillagers] LimitPillagers v2.13.0 Enabled in 43 ms
+[07:18:51] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[07:18:51] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.18.0.0 which is not a depend, softdepend or loadbefore of this plugin.
+[07:18:51] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[07:18:51] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[07:18:51] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[07:18:52] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[07:18:52] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.0-beta-03+94ce464
+[07:18:52] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[07:18:52] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R1 as the Bukkit adapter
+[07:18:53] [Server thread/INFO]: Preparing level "world"
+[07:18:53] [Server thread/INFO]: -------- World Settings For [world] --------
+[07:18:53] [Server thread/INFO]: Experience Merge Radius: 3.0
+[07:18:53] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[07:18:53] [Server thread/INFO]: Cane Growth Modifier: 100%
+[07:18:53] [Server thread/INFO]: Melon Growth Modifier: 100%
+[07:18:53] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[07:18:53] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[07:18:53] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[07:18:53] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[07:18:53] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[07:18:53] [Server thread/INFO]: Potato Growth Modifier: 100%
+[07:18:53] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[07:18:53] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[07:18:53] [Server thread/INFO]: Vine Growth Modifier: 100%
+[07:18:53] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[07:18:53] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[07:18:53] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[07:18:53] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[07:18:53] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[07:18:53] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[07:18:53] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[07:18:53] [Server thread/INFO]: Max TNT Explosions: 100
+[07:18:53] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[07:18:53] [Server thread/INFO]: Item Despawn Rate: 6000
+[07:18:53] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[07:18:53] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[07:18:53] [Server thread/INFO]: Item Merge Radius: 2.5
+[07:18:53] [Server thread/INFO]: View Distance: 10
+[07:18:53] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[07:18:53] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[07:18:53] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[07:18:53] [Server thread/INFO]: Mob Spawn Range: 8
+[07:18:53] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[07:18:54] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[07:18:54] [Server thread/INFO]: Experience Merge Radius: 3.0
+[07:18:54] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[07:18:54] [Server thread/INFO]: Cane Growth Modifier: 100%
+[07:18:54] [Server thread/INFO]: Melon Growth Modifier: 100%
+[07:18:54] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[07:18:54] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[07:18:54] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[07:18:54] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[07:18:54] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[07:18:54] [Server thread/INFO]: Potato Growth Modifier: 100%
+[07:18:54] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[07:18:54] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[07:18:54] [Server thread/INFO]: Vine Growth Modifier: 100%
+[07:18:54] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[07:18:54] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[07:18:54] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[07:18:54] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[07:18:54] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[07:18:54] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[07:18:54] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[07:18:54] [Server thread/INFO]: Max TNT Explosions: 100
+[07:18:54] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[07:18:54] [Server thread/INFO]: Item Despawn Rate: 6000
+[07:18:54] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[07:18:54] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[07:18:54] [Server thread/INFO]: Item Merge Radius: 2.5
+[07:18:54] [Server thread/INFO]: View Distance: 10
+[07:18:54] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[07:18:54] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[07:18:54] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[07:18:54] [Server thread/INFO]: Mob Spawn Range: 8
+[07:18:54] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[07:18:54] [Server thread/INFO]: Experience Merge Radius: 3.0
+[07:18:54] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[07:18:54] [Server thread/INFO]: Cane Growth Modifier: 100%
+[07:18:54] [Server thread/INFO]: Melon Growth Modifier: 100%
+[07:18:54] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[07:18:54] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[07:18:54] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[07:18:54] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[07:18:54] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[07:18:54] [Server thread/INFO]: Potato Growth Modifier: 100%
+[07:18:54] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[07:18:54] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[07:18:54] [Server thread/INFO]: Vine Growth Modifier: 100%
+[07:18:54] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[07:18:54] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[07:18:54] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[07:18:54] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[07:18:54] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[07:18:54] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[07:18:54] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[07:18:54] [Server thread/INFO]: Max TNT Explosions: 100
+[07:18:54] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[07:18:54] [Server thread/INFO]: Item Despawn Rate: 6000
+[07:18:54] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[07:18:54] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[07:18:54] [Server thread/INFO]: Item Merge Radius: 2.5
+[07:18:54] [Server thread/INFO]: View Distance: 10
+[07:18:54] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[07:18:54] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[07:18:54] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[07:18:54] [Server thread/INFO]: Mob Spawn Range: 8
+[07:18:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[07:18:54] [Server thread/INFO]: Loaded 0 spawn chunks for world world
+[07:18:54] [Server thread/INFO]: Preparing spawn area: 0%
+[07:18:54] [Server thread/INFO]: Preparing spawn area: 0%
+[07:18:55] [Server thread/INFO]: Preparing spawn area: 0%
+[07:18:55] [Server thread/INFO]: Preparing spawn area: 80%
+[07:18:55] [Server thread/INFO]: Time elapsed: 1868 ms
+[07:18:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[07:18:56] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
+[07:18:56] [Server thread/INFO]: Time elapsed: 567 ms
+[07:18:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[07:18:56] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
+[07:18:56] [Server thread/INFO]: Time elapsed: 208 ms
+[07:18:56] [Server thread/INFO]: [CommandHook] Enabling CommandHook v1.0.6
+[07:18:56] [Server thread/INFO]: NMS package found: v1_16_R1
+[07:18:56] [Server thread/INFO]: [WorldBorder] Enabling WorldBorder v2.0.9
+[07:18:56] [Server thread/INFO]: [WorldBorder] [CONFIG] Using rectangular/square border, knockback of 3.0 blocks, and timer delay of 5.
+[07:18:56] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task started.
+[07:18:56] [Server thread/INFO]: [WorldBorder] For reference, the main world's spawn location is at X: 1594.0 Y: 65.0 Z: -229.0
+[07:18:56] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.4.3
+[07:18:56] [Server thread/INFO]: [CommandSigns] Enabling CommandSigns v2.2.0
+[07:18:56] [Server thread/INFO]: [CommandSigns] Plugin vault detected
+[07:18:56] [Server thread/INFO]: [CommandSigns] Vault economy [Essentials Economy] linked with command signs !
+[07:18:56] [Server thread/INFO]: [CommandSigns] If this plugin is useful to you, you can make a donation at: https://www.paypal.me/nokorbis
+[07:18:56] [Server thread/INFO]: [Playtimes] Enabling Playtimes v1.3.3*
+[07:18:57] [Server thread/INFO]: =-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+[07:18:57] [Server thread/INFO]: You are using an older version of PlayTime!
+[07:18:57] [Server thread/INFO]: Download the newest version here:
+[07:18:57] [Server thread/INFO]: https://tinyurl.com/y7ltcg8m
+[07:18:57] [Server thread/INFO]: =-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+[07:18:57] [Server thread/INFO]: [PlayTime] Successfully loaded.
+[07:18:57] [Server thread/INFO]: [Essentials] Enabling Essentials v2.18.0.0
+[07:18:57] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[07:18:57] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[07:18:58] [Server thread/INFO]: [Essentials] Loaded 25515 items from items.json.
+[07:18:58] [Server thread/INFO]: [Essentials] Using locale en
+[07:18:58] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[07:18:58] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[07:18:58] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[07:18:58] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[07:18:58] [Server thread/INFO]: [Stargate] Enabling Stargate vReremake 1.0.0
+[07:18:58] [Server thread/INFO]: Stargate v.Reremake 1.0.0 is enabled.
+[07:18:58] [Server thread/ERROR]: [Stargate] Error loading backup language. There may be missing text ingame
+[07:18:58] [Server thread/ERROR]: Could not save Gate nethergate.gate - plugins/Stargate/gates (Is a directory)
+[07:18:58] [Server thread/INFO]: [Stargate] Loaded 1 gate layouts
+[07:18:58] [Server thread/INFO]: [Stargate] {world} No stargates for world 
+[07:18:58] [Server thread/INFO]: [Stargate] {world_nether} No stargates for world 
+[07:18:58] [Server thread/INFO]: [Stargate] {world_the_end} No stargates for world 
+[07:18:58] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.18.0.0
+[07:18:58] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[07:18:58] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.18.0.0
+[07:18:58] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[07:18:58] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.4-beta1;bc551da
+[07:18:58] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[07:18:58] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[07:18:58] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[07:18:58] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[07:18:58] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[07:18:58] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[07:18:58] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[07:18:58] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[07:18:58] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[07:18:58] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[07:18:58] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[07:18:58] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[07:18:58] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[07:18:58] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[07:18:58] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[07:18:58] [Server thread/INFO]: [WorldGuard] Loading region data...
+[07:18:59] [Server thread/INFO]: [BetterSleeping3] Enabling BetterSleeping3 v3.0.3
+[07:18:59] [Server thread/INFO]: [BetterSleeping3] No missing options were found in config.yml!
+[07:18:59] [Server thread/INFO]: [BetterSleeping3] No missing options were found in sleeping_settings.yml!
+[07:18:59] [Server thread/INFO]: [BetterSleeping3] No missing options were found in hooks.yml!
+[07:18:59] [Server thread/INFO]: [BetterSleeping3] No missing options were found in bypassing.yml!
+[07:18:59] [Server thread/INFO]: [BetterSleeping3] Using localised lang file for: en-US
+[07:18:59] [Server thread/INFO]: [BetterSleeping3] No missing options were found in lang/en-us.yml!
+[07:18:59] [Server thread/INFO]: [BetterSleeping3] Using 'smooth' as night skip mode
+[07:18:59] [Server thread/INFO]: [BetterSleeping3] Using required sleepers counter 'percentage' which is set to 30% of players required
+[07:18:59] [Server thread/INFO]: [BetterSleeping3] The message below is always shown, even if collecting data is disabled: 
+[07:18:59] [Server thread/INFO]: [BetterSleeping3] BetterSleeping collects anonymous statistics once every 30 minutes. Opt-out at bStats/config.yml
+[07:18:59] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v19.1
+[07:18:59] [Thread-19/INFO]: [BetterSleeping3] You are using the latest version: 3.0.3
+[07:18:59] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled!
+[07:18:59] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[07:18:59] [Server thread/INFO]: --------------------
+[07:18:59] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[07:18:59] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[07:18:59] [Server thread/INFO]: --------------------
+[07:18:59] [Server thread/INFO]: [WorldGuardExtraFlags] Enabling WorldGuardExtraFlags v4.1.4
+[07:18:59] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.TeleportOnEntryFlagHandler
+[07:18:59] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.TeleportOnExitFlagHandler
+[07:18:59] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.CommandOnEntryFlagHandler
+[07:18:59] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.CommandOnExitFlagHandler
+[07:18:59] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.ConsoleCommandOnEntryFlagHandler
+[07:18:59] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.ConsoleCommandOnExitFlagHandler
+[07:18:59] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.WalkSpeedFlagHandler
+[07:18:59] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.BlockedEffectsFlagHandler
+[07:18:59] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.GodmodeFlagHandler
+[07:18:59] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.GiveEffectsFlagHandler
+[07:18:59] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.FlyFlagHandler
+[07:18:59] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.PlaySoundsFlagHandler
+[07:18:59] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.GlideFlagHandler
+[07:18:59] [Server thread/INFO]: [Jobs] Enabling Jobs v4.16.0
+[07:19:00] [Server thread/INFO]: [Jobs] Loaded 8 titles!
+[07:19:00] [Server thread/INFO]: [Jobs] Loaded 75 protected blocks timers!
+[07:19:00] [Server thread/INFO]: [Jobs] Loaded 1098 custom item names!
+[07:19:00] [Server thread/INFO]: [Jobs] Loaded 71 custom entity names!
+[07:19:00] [Server thread/INFO]: [Jobs] Loaded 2 custom MythicMobs names!
+[07:19:00] [Server thread/INFO]: [Jobs] Loaded 38 custom enchant names!
+[07:19:00] [Server thread/INFO]: [Jobs] Loaded 16 custom color names!
+[07:19:00] [Server thread/INFO]: [Jobs] Loaded 4 shop items!
+[07:19:00] [Server thread/INFO]: [Jobs] Loaded 1 quests for Woodcutter
+[07:19:00] [Server thread/INFO]: [Jobs] Loaded 1 quests for Miner
+[07:19:00] [Server thread/INFO]: [Jobs] Loaded 1 quests for Builder
+[07:19:00] [Server thread/INFO]: [Jobs] Loaded 1 quests for Digger
+[07:19:00] [Server thread/INFO]: [Jobs] Loaded 1 quests for Farmer
+[07:19:00] [Server thread/INFO]: [Jobs] Loaded 1 quests for Hunter
+[07:19:00] [Server thread/WARN]: [Jobs] Job Hunter has an invalid Kill type property: PIG_ZOMBIE!
+[07:19:00] [Server thread/INFO]: [Jobs] Loaded 1 quests for Explorer
+[07:19:00] [Server thread/INFO]: [Jobs] Loaded 1 quests for Crafter
+[07:19:00] [Server thread/INFO]: [Jobs] Loaded 1 quests for Fisherman
+[07:19:00] [Server thread/INFO]: [Jobs] Loaded 1 quests for Weaponsmith
+[07:19:00] [Server thread/INFO]: [Jobs] Loaded 1 quests for Brewer
+[07:19:00] [Server thread/INFO]: [Jobs] Loaded 1 quests for Enchanter
+[07:19:00] [Server thread/INFO]: [Jobs] Loaded 12 jobs!
+[07:19:00] [Server thread/INFO]: [Jobs] Explorer job manager registered!
+[07:19:00] [Jobs-DatabaseSaveTask/INFO]: [Jobs] Started database save task.
+[07:19:00] [Jobs-BufferedPaymentThread/INFO]: [Jobs] Started buffered payment thread.
+[07:19:00] [Server thread/INFO]: [Jobs] Preloaded 2 players data in 0.0
+[07:19:00] [Server thread/INFO]: [Jobs] WorldGuard detected.
+[07:19:00] [Server thread/INFO]: [Jobs] Loading explorer data
+[07:19:00] [Server thread/INFO]: [Jobs] Loaded explorer data (43)
+[07:19:00] [Server thread/INFO]: [Jobs] Plugin has been enabled successfully.
+[07:19:00] [Server thread/INFO]: [ProtectionStones] Enabling ProtectionStones v2.7.5
+[07:19:00] [Server thread/INFO]: [WorldGuard] Registering session handler dev.espi.protectionstones.flags.GreetingFlagHandler
+[07:19:00] [Server thread/INFO]: [WorldGuard] Registering session handler dev.espi.protectionstones.flags.FarewellFlagHandler
+[07:19:00] [Server thread/INFO]: [ProtectionStones] PlaceholderAPI not found! There will be no PlaceholderAPI support.
+[07:19:00] [Server thread/INFO]: [ProtectionStones] Protection Stone Blocks:
+[07:19:00] [Server thread/INFO]: [ProtectionStones] - EMERALD_ORE (64)
+[07:19:01] [Server thread/INFO]: [ProtectionStones] Building region cache...
+[07:19:01] [Server thread/INFO]: [ProtectionStones] Building UUID cache... (if slow change async-load-uuid-cache in the config to true)
+[07:19:01] [Server thread/INFO]: [ProtectionStones] Checking if PS regions have been updated to UUIDs...
+[07:19:01] [Server thread/INFO]: [ProtectionStones] ProtectionStones has successfully started!
+[07:19:01] [Server thread/INFO]: Running delayed init tasks
+[07:19:01] [Craft Scheduler Thread - 3/INFO]: [LimitPillagers] Checking for updates...
+[07:19:01] [Craft Scheduler Thread - 4/INFO]: [Vault] Checking for Updates ... 
+[07:19:01] [Craft Scheduler Thread - 3/INFO]: [LimitPillagers] There is an update available ( 2.13.0 > 2.14.0 ), go download it at https://www.spigotmc.org/resources/69733
+[07:19:01] [Craft Scheduler Thread - 3/INFO]: [LimitPillagers] Download it here: https://www.spigotmc.org/resources/69733/
+[07:19:01] [Server thread/INFO]: [CoreProtect] WorldEdit logging successfully initialized.
+[07:19:01] [Server thread/INFO]: [Jobs] Successfully linked with Vault.
+[07:19:01] [Server thread/INFO]: Done (18.942s)! For help, type "help"
+[07:19:01] [Server thread/INFO]: Timings Reset
+[07:19:01] [Craft Scheduler Thread - 4/INFO]: [Vault] No new version available
+[07:19:01] [Server thread/INFO]: [HolographicDisplays] Found a new version available: v2.4.4
+[07:19:01] [Server thread/INFO]: [HolographicDisplays] Download it on Bukkit Dev:
+[07:19:01] [Server thread/INFO]: [HolographicDisplays] dev.bukkit.org/projects/holographic-displays
+[07:19:02] [Thread-22/INFO]: [CoreProtect] No donation key found. Please check config.yml.
+[07:19:02] [Thread-22/INFO]: --------------------
+[07:19:02] [Thread-22/INFO]: [CoreProtect] Version 19.2 is now available.
+[07:19:02] [Thread-22/INFO]: [CoreProtect] Download: www.coreprotect.net/download/
+[07:19:02] [Thread-22/INFO]: --------------------
+[07:19:05] [Server-Worker-11/WARN]: Tried to access a block entity before it was created. BlockPosition{x=189, y=50, z=-174}
+[07:19:05] [Server-Worker-11/WARN]: Tried to access a block entity before it was created. BlockPosition{x=189, y=50, z=-174}
+[07:19:05] [Server-Worker-11/WARN]: Tried to access a block entity before it was created. BlockPosition{x=189, y=50, z=-174}
